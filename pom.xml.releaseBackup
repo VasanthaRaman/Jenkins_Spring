@@ -3,7 +3,7 @@
 	<groupId>jbr.springmvc</groupId>
 	<artifactId>spring-mvc-maven</artifactId>
 	<packaging>war</packaging>
-	<version>0.1</version>
+	<version>0.1-SNAPSHOT</version>
 	<name>spring-mvc-maven Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
@@ -16,7 +16,7 @@
 		<url>https://gitlab.com/VasanthaRaman/Jenkins_Spring.git</url>
 		<connection>scm:git:https://gitlab.com/VasanthaRaman/Jenkins_Spring.git</connection>
 		<developerConnection>scm:git:https://gitlab.com/VasanthaRaman/Jenkins_Spring.git</developerConnection>
-		<tag>spring-mvc-maven-0.1</tag>
+		<tag>springmvc-maven-1.0</tag>
 	</scm>
 	
 	<dependencies>
@@ -50,16 +50,7 @@
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
-			<plugin>
-				    <groupId>org.apache.maven.release</groupId>
-    				<artifactId>maven-release-manager</artifactId>
-    				<version>3.0.0-M4</version>
-			</plugin>
-			<plugin>
-    				<groupId>org.apache.maven.plugins</groupId>
-    				<artifactId>maven-deploy-plugin</artifactId>
-    				<version>3.0.0-M1</version>
-			</plugin>
+
 		</plugins>
 	</build>
 </project>

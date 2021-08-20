@@ -3,7 +3,7 @@
 	<groupId>jbr.springmvc</groupId>
 	<artifactId>spring-mvc-maven</artifactId>
 	<packaging>war</packaging>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.1</version>
 	<name>spring-mvc-maven Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
